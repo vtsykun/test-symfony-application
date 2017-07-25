@@ -1,0 +1,8 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    Test logger 2 !
+    {% for i in range(from, to) %}
+        {{ render(path('log_widget', {'id': i})) }}
+    {% endfor %}
+{% endblock %}

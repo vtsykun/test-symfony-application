@@ -1,0 +1,5 @@
+okvpn_logger_collector:
+    resource: "@OkvpnLoggerCollectorBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
